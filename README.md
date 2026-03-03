@@ -14,6 +14,6 @@ This program takes a URL from the command line, fetches the webpage, and prints:
 
 ## How to Run
 
-python3 work3.py http://example.com
+python3 scraper.py http://example.com
 
 Replace the URL with any valid website.
