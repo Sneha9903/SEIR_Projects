@@ -6,7 +6,12 @@ from bs4 import BeautifulSoup
 if len(sys.argv) < 2:
     print("Please provide a URL")
     sys.exit()
+
 url = sys.argv[1]
+
+# add http if missing
+if not url.startswith("http"):
+    url = "http://" + url
 
 # get page
 headers = {
